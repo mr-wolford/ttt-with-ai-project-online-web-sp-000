@@ -3,7 +3,7 @@ module Players
   class Computer < Player
 
     def move(board)
-      board.position(rand(1..9)) unless taken?
+      board.position(1)
     end
 
   end
