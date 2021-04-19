@@ -3,6 +3,7 @@ module Players
   class Computer < Player
 
     def move(board)
+      sleep(1)
       if board.cells[4] == " "
         "5"
       elsif board.cells[0] == " "
