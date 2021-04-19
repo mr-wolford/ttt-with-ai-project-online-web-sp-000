@@ -31,4 +31,4 @@ def game_start
 end
 
 gets.strip = ""
-game_start unless gets.strip == "n"
+game_start until gets.strip == "n"
