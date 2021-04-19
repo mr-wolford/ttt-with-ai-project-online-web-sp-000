@@ -4,7 +4,6 @@ module Players
 
     def move(board)
       @board.position(rand(1..9))
-      binding.pry
     end
 
   end
