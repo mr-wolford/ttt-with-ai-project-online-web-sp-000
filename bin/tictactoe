@@ -8,8 +8,8 @@ def game_start
 
   0 - Computer VS Computer
   1 - Single Player
-  2 - Two Player"
-  \n
+  2 - Two Player
+  \n"
 
   game_type = gets.strip
 
