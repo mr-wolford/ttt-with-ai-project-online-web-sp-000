@@ -30,5 +30,5 @@ def game_start
 
 end
 
-gets = ""
+
 game_start until gets.strip == "n"
