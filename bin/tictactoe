@@ -30,4 +30,4 @@ def game_start
 
 end
 
-game_start
+game_start unless gets.strip == "n"
