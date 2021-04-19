@@ -3,7 +3,7 @@ module Players
   class Computer < Player
 
     def move(board)
-     "1"
+      @board.position([1..9].rand)
     end
 
   end
